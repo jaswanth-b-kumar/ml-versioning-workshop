@@ -1,5 +1,5 @@
 import pandas as pd
-import sklearn.model_selection as test_train_split
+from sklearn.model_selection import test_train_split
 from pathlib import Path
 
 RAW_DATA_PATH = Path('data/raw/iris.csv')
